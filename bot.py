@@ -3,7 +3,7 @@ from utils import write_message
 from agent import generate_response
 
 # Page Config
-st.set_page_config("Neo4j LLM Movie Chatbot", page_icon=":movie_camera:")
+st.set_page_config("Neo4j LLM Movie Agent", page_icon=":movie_camera:")
 
 st.write("# Welcome to the Neo4j LLM Movie Chatbot! 🎬")
 
@@ -37,7 +37,7 @@ for question in example_questions:
 if "messages" not in st.session_state:
     st.session_state.messages = [
         {"role": "assistant",
-            "content": "Hi, I'm the Neo4j LLM Movie Chatbot! How can I help you?"},
+            "content": "Hi, I'm the Neo4j LLM Movie Agent! How can I help you?"},
     ]
 
 # Display chat messages
