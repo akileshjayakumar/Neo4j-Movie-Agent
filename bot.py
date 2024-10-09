@@ -3,9 +3,9 @@ from utils import write_message
 from agent import generate_response
 
 # Page Config
-st.set_page_config("Neo4j LLM Movie Agent", page_icon=":movie_camera:")
+st.set_page_config("Neo4j LLM Movie Agent", page_icon="🎬")
 
-st.write("# Welcome to the Neo4j LLM Movie Chatbot! 🎬")
+st.write("# Welcome to the Neo4j LLM Movie Agent! 🎬")
 
 # Example questions
 example_questions = [
